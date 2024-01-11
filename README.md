@@ -5,7 +5,7 @@
 - The Ethernaut is a Web3/Solidity-based coding wargame, played in the Ethereum Virtual Machine. 
 - Each level is a smart contract that needs to be 'hacked'.
 
-Here are the writeups of my solutions levels I cleared. 
+- Here are the writeups of my solutions levels I cleared. 
 ** I will not recommend you to look at solutions I wrote. Solve it yourself for your learning 😛 **
 
 # How to use Ethernaut
@@ -29,9 +29,9 @@ The goal is to become the Owner of the smart contract.
 
 - So we just need to call `changeOwner()` from an external contract. (Which is equal to, not being the same address when calling as the original call)
 
-** Change the Telephone contract address by yours iN the below code　**
+** Change the Telephone contract address by yours in the below code　**
 
-```bash
+```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
@@ -101,7 +101,7 @@ Level is completed.
 
 ** 下記のTelephoneのアドレスを変更して　**
 
-```bash
+```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
